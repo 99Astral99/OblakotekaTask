@@ -18,7 +18,7 @@ namespace OblakotekaTask.Infrastructure.Configurations
             builder.HasIndex(e => e.Name, "UC_Product_Name").IsUnique();
 
             builder.Property(e => e.Id)
-                    .ValueGeneratedNever()
+                    .ValueGeneratedOnAdd()
                     .HasColumnName("ID");
             builder.Property(e => e.Name).HasMaxLength(255);
 
