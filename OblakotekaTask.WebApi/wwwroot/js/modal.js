@@ -50,28 +50,3 @@ function openModalToCreate(parameters) {
         }
     });
 };
-
-
-//function submitForm() {
-//    $.ajax({
-//        url: '/Product/Update',
-//        type: 'POST',
-//        data: $('#modalFormId').serialize(),
-//        success: function (response) {
-//            // Проверяем, содержит ли ответ ошибки валидации
-//            if ($(response).find('.field-validation-error').length > 0) {
-//                // Обновляем модальное окно с частичным представлением с ошибками
-//                $('#modalContent').html(response);
-//            } else {
-//                // Если ошибок нет, закрываем модальное окно или выполняем другие действия
-//                $('#modal').modal('hide');
-//            }
-//        }
-//    });
-//}
-
-//// Обработчик клика на кнопку "Сохранить"
-//$('#updateProductBtnId').on('click', function (e) {
-//    e.preventDefault();
-//    submitForm();
-//});
