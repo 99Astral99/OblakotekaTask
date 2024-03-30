@@ -39,7 +39,11 @@ namespace OblakotekaTask.Application.Implementations
 
         public async Task<IEnumerable<ProductViewModel>> GetAll()
         {
-            var products = await _productRepository.GetAll().ToListAsync();
+            var products = await _productRepository
+                .GetAll()
+                .OrderBy(x => x.Name)
+                .AsNoTracking()
+                .ToListAsync();
 
             var data = products.Select(x => new ProductViewModel
             {
@@ -56,6 +60,8 @@ namespace OblakotekaTask.Application.Implementations
             var products = await _productRepository
                 .GetAll()
                 .Where(x => x.Name == name)
+                .OrderBy(x => x.Name)
+                .AsNoTracking()
                 .ToListAsync();
 
             var data = products.Select(x => new ProductViewModel
