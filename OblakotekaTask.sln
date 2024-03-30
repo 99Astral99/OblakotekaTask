@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OblakotekaTask.WebApi", "OblakotekaTask.WebApi\OblakotekaTask.WebApi.csproj", "{E1DE7390-D560-4B7C-8F12-3E03740A6017}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OblakotekaTask.WebApi", "OblakotekaTask.WebApi\OblakotekaTask.WebApi.csproj", "{E1DE7390-D560-4B7C-8F12-3E03740A6017}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OblakotekaTask.Infrastructure", "OblakotekaTask.Infrastructure\OblakotekaTask.Infrastructure.csproj", "{57E5EAA7-3C8C-472F-A14D-554E1FD77624}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OblakotekaTask.Application", "OblakotekaTask.Application\OblakotekaTask.Application.csproj", "{335D9B09-D4BD-4BFE-8E7F-1670860C3043}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OblakotekaTask.Domain", "OblakotekaTask.Domain\OblakotekaTask.Domain.csproj", "{AFA9D950-840B-4311-86C5-C38DE9A578EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{E1DE7390-D560-4B7C-8F12-3E03740A6017}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1DE7390-D560-4B7C-8F12-3E03740A6017}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1DE7390-D560-4B7C-8F12-3E03740A6017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E5EAA7-3C8C-472F-A14D-554E1FD77624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E5EAA7-3C8C-472F-A14D-554E1FD77624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E5EAA7-3C8C-472F-A14D-554E1FD77624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E5EAA7-3C8C-472F-A14D-554E1FD77624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335D9B09-D4BD-4BFE-8E7F-1670860C3043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335D9B09-D4BD-4BFE-8E7F-1670860C3043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335D9B09-D4BD-4BFE-8E7F-1670860C3043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335D9B09-D4BD-4BFE-8E7F-1670860C3043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA9D950-840B-4311-86C5-C38DE9A578EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA9D950-840B-4311-86C5-C38DE9A578EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA9D950-840B-4311-86C5-C38DE9A578EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA9D950-840B-4311-86C5-C38DE9A578EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
