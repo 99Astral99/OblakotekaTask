@@ -66,6 +66,7 @@ namespace OblakotekaTask.Application.Implementations
 
             var data = products.Select(x => new ProductViewModel
             {
+                Id = x.Id,
                 Name = x.Name,
                 Description = x.Description
             }).ToList();
