@@ -3,6 +3,7 @@
 ## Примечание
 
 - Использовал Database first approach
+- Скрипты для БД хранятся по следующему пути: OblakotekaApp\OblakotekaTask.Infrastructure\SqlScripts
 
 ## Тестовое задание для соискателя вакансии 
 «удаленный C# / ASP.NET разработчик»
