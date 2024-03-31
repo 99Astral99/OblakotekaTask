@@ -5,12 +5,11 @@
 }
 <h2>Список изделий</h2>
 
-<div style="display:flex; align-items:center;">
+<div style="display: flex; align-items: center;margin-left:15px;margin-top:30px;">
     <form method="GET" action="@Url.Action("Index", "Product")">
-        <input type="text" name="searchName" placeholder="Поиск по имени" />
-        <button type="submit" class="btn btn-primary">Искать</button>
+        <input type="text" name="searchName" style="margin-right:15px" placeholder="Поиск по имени" />
+        <button type="submit" style="margin-right:15px" class="btn btn-primary">Искать</button>
     </form>
-
     <div>
         <button type="button" class="btn btn-primary" onclick="openModalToCreate({url:'/Product/Create'})" data-toggle="modal" data-target="#modal">
             Добавить
