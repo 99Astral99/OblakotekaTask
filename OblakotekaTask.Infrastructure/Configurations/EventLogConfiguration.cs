@@ -15,7 +15,7 @@ namespace OblakotekaTask.Infrastructure.Configurations
             builder.HasIndex(e => e.EventDate, "IX_EventLog_EventDate");
 
             builder.Property(e => e.Id)
-                    .ValueGeneratedNever()
+                    .ValueGeneratedOnAdd()
                     .HasColumnName("ID");
             builder.Property(e => e.EventDate)
                     .HasDefaultValueSql("(getdate())")

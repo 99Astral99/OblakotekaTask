@@ -23,7 +23,7 @@ namespace OblakotekaTask.Infrastructure.Configurations
             builder.HasIndex(e => e.Width, "IX_ProductVersion_Width");
 
             builder.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("ID");
             builder.Property(e => e.CreatingDate)
                 .HasDefaultValueSql("(getdate())")
